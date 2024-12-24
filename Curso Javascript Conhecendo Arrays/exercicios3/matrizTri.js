@@ -6,8 +6,6 @@ let alunosIdadesNotas = [
 
 for(let i = 0; i < alunosIdadesNotas.length; i++ ){
     for(let j = 0; j < alunosIdadesNotas[i].length; j++){
-        for(let k = 0; k < alunosIdadesNotas[i][j].length; k++){
-            console.log(alunosIdadesNotas[i][j][k])
-        }
+        console.log(alunosIdadesNotas[i][j])
     }
 }
