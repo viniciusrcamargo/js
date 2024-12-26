@@ -1,7 +1,7 @@
 let alunosIdadesNotas = [
     [
         ['João','José','Maria','Ana'],
-    ]
+    ],
     [
         [15,17,14,16],
         [8,7,9.5,8.5]
