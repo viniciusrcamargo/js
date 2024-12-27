@@ -1,20 +1,17 @@
 let alunosIdadesNotas = [
     [
-        ['João','José','Maria','Ana'],
+        ['João', 'José', 'Maria', 'Ana']
     ],
     [
-        [15,17,14,16],
-        [8,7,9.5,10]
+        [15, 17, 14, 16],
+        [8, 7, 9.5, 10]
     ]
-    
-]
+];
 
-for(let i = 0; i < alunosIdadesNotas.length; i++ ){
-    console.log(`O aluno ${alunosIdadesNotas[i]}`)
-    for(let j = 0; j < alunosIdadesNotas[i].length; j++){
-        console.log(`A idade do aluno ${alunosIdadesNotas[i][j]}`)
-        for(let k = 0; k < alunosIdadesNotas[i][j].length; k++){
-            console.log(`A nota do aluno ${alunosIdadesNotas[i][j][k]}`)
-        }
-    }
+let nomes = alunosIdadesNotas[0][0]; // Array de nomes
+let idades = alunosIdadesNotas[1][0]; // Array de idades
+let notas = alunosIdadesNotas[1][1]; // Array de notas
+
+for (let i = 0; i < nomes.length; i++) {
+    console.log(`O aluno ${nomes[i]} tem ${idades[i]} anos e tirou nota ${notas[i]}.`);
 }
