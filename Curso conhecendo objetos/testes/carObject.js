@@ -5,5 +5,6 @@ const car = {
 }
 
 car.color = 'White';
+car.size = 'Compact';
 
 console.log(car.brand);
