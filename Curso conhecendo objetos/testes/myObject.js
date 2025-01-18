@@ -1,14 +1,14 @@
-var meuCarro = new Object();
-meuCarro.fabricacao = "Ford";
-meuCarro.modelo = "Mustang";
-meuCarro.ano = 1969;
+const meuCarro = {
+    marca: "Ford",
+    modelo: "Mustang",
+    ano: 1969,
+    conceito:{
+        tipo: "conversível",
+        potencia: "450 cavalos"
 
-meuCarro["fabricacao"] = "Volksvagem";
-meuCarro.cor = "azul"
-meuCarro["cor"] = "vermelho"
-meuCarro = {
-    paisOrigem: "Russia",
-    chassi: "123456789",
+    },
+    acelerar: function(){
+        console.log("vrum vrum");
+    }
 }
-
 console.log(meuCarro);
