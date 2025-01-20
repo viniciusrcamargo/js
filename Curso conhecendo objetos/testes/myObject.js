@@ -11,4 +11,4 @@ const meuCarro = {
         console.log("vrum vrum");
     }
 }
-console.log(meuCarro);
+console.log(meuCarro.acelerar());
