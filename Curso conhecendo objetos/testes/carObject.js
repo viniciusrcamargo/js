@@ -6,5 +6,6 @@ const car = {
 
 car.color = 'White';
 car.size = 'Compact';
+car.minSpeed = 0;
 
 console.log(car.brand);
