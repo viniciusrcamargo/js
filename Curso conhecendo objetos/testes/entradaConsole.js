@@ -1,2 +1,2 @@
-const numero = require('readline-sync');
-
+let nome = prompt("Digite seu nome:");
+console.log("Olá, " + nome + "!");
